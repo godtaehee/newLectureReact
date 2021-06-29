@@ -10,9 +10,8 @@ function App() {
     <div>
       <Header/>
       <Switch>
-        <Route path="/" exact component={Index} />
+        <Route exact path="/"  component={Index} />
         <Route path="/customer" component={CustomerLayout} />
-
       </Switch>
 
       <Footer/>
